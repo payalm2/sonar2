@@ -22,5 +22,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
+            -X
             -Dsonar.projectKey=sonar1
             -Dsonar.organization=payalm2
